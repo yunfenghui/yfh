@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width scale-initial=1 uesr-scalable=no" >
+	<title></title>
+	<script>
+		window.onload=function(){
+			var oDiv=document.getElementById("box");
+			var btn=document.getElementById("button")
+			var oP=document.createElement('p')
+			oP.innerHTML="aaaaa";
+			oDiv.appendChild(oP);
+			btn.onclick=function(){
+				oP.style.color="red"
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="box"></div>
+	<button id="button">push</button>
+</body>
+</html>
